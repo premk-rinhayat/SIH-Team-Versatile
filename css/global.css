@@ -416,3 +416,105 @@ img {
     font-size: 48px;
   }
 }
+
+
+
+.other-login-section {
+    margin-top: 36px;
+}
+
+.section-heading {
+    margin-bottom: 16px;
+}
+
+.section-heading h2 {
+    margin: 0 0 5px;
+    font-size: 22px;
+}
+
+.section-heading p {
+    margin: 0;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.role-login-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.role-login-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 18px;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+
+    background: #ffffff;
+
+    color: #0f172a;
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+.role-login-card:hover {
+    border-color: #16a34a;
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.role-login-icon {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 12px;
+
+    background: #f0fdf4;
+
+    font-size: 22px;
+}
+
+.role-login-content {
+    flex: 1;
+}
+
+.role-login-content h3 {
+    margin: 0 0 4px;
+
+    font-size: 16px;
+}
+
+.role-login-content p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 12px;
+}
+
+.role-arrow {
+    color: #16a34a;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+
+    .role-login-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
